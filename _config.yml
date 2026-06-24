@@ -1,0 +1,11 @@
+title: Boundless Tallawah Software
+email: contact@boundless-tallawah-software.com
+description: >-
+  Boundless Tallawah Software — building quality software solutions.
+baseurl: ""
+url: "https://boundless-tallawah-software.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
