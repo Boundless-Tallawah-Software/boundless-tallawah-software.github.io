@@ -1,0 +1,260 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Boundless Tallawah | Offline-Capable Apps &amp; Local AI</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary-fixed": "#dbe1ff",
+              "on-error": "#ffffff",
+              "tertiary-fixed": "#79f6ed",
+              "surface-tint": "#435b9f",
+              "on-surface": "#1c1b1b",
+              "on-tertiary-container": "#00a099",
+              "tertiary-container": "#002e2b",
+              "secondary": "#506169",
+              "surface": "#fcf9f8",
+              "secondary-container": "#d1e2ec",
+              "surface-container-high": "#ebe7e7",
+              "surface-container": "#f0edec",
+              "inverse-primary": "#b3c5ff",
+              "on-tertiary": "#ffffff",
+              "on-background": "#1c1b1b",
+              "surface-container-lowest": "#ffffff",
+              "error": "#ba1a1a",
+              "surface-container-low": "#f6f3f2",
+              "on-tertiary-fixed": "#00201e",
+              "secondary-fixed-dim": "#b8c9d3",
+              "surface-bright": "#fcf9f8",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed-variant": "#394951",
+              "inverse-on-surface": "#f3f0ef",
+              "surface-container-highest": "#e5e2e1",
+              "on-primary": "#ffffff",
+              "outline": "#757682",
+              "error-container": "#ffdad6",
+              "tertiary-fixed-dim": "#59dad1",
+              "surface-variant": "#e5e2e1",
+              "primary-fixed-dim": "#b3c5ff",
+              "on-secondary-fixed": "#0d1e25",
+              "tertiary": "#001716",
+              "inverse-surface": "#313030",
+              "on-primary-fixed-variant": "#2a4386",
+              "secondary-fixed": "#d4e5ef",
+              "on-primary-container": "#758dd5",
+              "primary": "#00113a",
+              "surface-container-primary": "#002366",
+              "primary-container": "#002366",
+              "outline-variant": "#c5c6d2",
+              "background": "#fcf9f8"
+            },
+            fontFamily: {
+              "headline": ["Newsreader", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 20px 40px rgba(28, 27, 27, 0.06);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcf9f8;
+            color: #1c1b1b;
+        }
+        h1, h2, h3 {
+            font-family: 'Newsreader', serif;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-tertiary-fixed-dim selection:text-tertiary">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white font-headline italic flex flex-col leading-tight" style="">
+                Boundless Tallawah 
+                <span class="block text-xs not-italic font-label uppercase tracking-[0.2em] text-slate-500 mt-1 font-normal" style="">Software Solutions</span>
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-teal-600 dark:text-teal-400 font-semibold border-b-2 border-teal-500 font-serif italic text-lg transition-all duration-300" href="#" style="">Solutions</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 font-serif italic text-lg transition-colors" href="#" style="">Services</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 font-serif italic text-lg transition-colors" href="#" style="">About</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 font-serif italic text-lg transition-colors" href="#" style="">Contact</a>
+</div>
+<div class="flex items-center space-x-6">
+<span class="text-slate-600 font-serif italic text-lg" style="">🇯🇲 🇺🇸 🇨🇦</span>
+<button class="bg-primary px-6 py-2.5 text-white font-medium rounded-md scale-95 active:scale-90 transition-transform bg-gradient-to-r from-primary to-primary-container" style="">
+                    Get Started
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-8 mb-24 md:mb-48">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="text-left">
+<h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-primary leading-[1.1] mb-12" style="">Your business <span class="italic text-secondary" style="">unbound</span> and operable across the island and around the region.</h1>
+<div class="flex flex-wrap gap-6 items-center">
+<button class="bg-primary text-white px-10 py-5 rounded-md font-semibold text-lg shadow-lg hover:translate-y-[-2px] transition-all flex items-center gap-2 bg-gradient-to-br from-primary to-primary-container" style="">
+                            Take Our Survey
+                            <span class="material-symbols-outlined" style="">arrow_forward</span>
+</button>
+<button class="px-10 py-5 rounded-md font-semibold text-lg text-primary hover:bg-surface-container-high transition-all" style="">
+                            Contact Us
+                        </button>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/5 rounded-2xl blur-2xl group-hover:bg-primary/10 transition-colors duration-500"></div>
+<div class="relative bg-white p-4 rounded-2xl editorial-shadow overflow-hidden">
+<img alt="Professional vector-style map of Caribbean islands highlighting CARICOM member states" class="w-full h-auto object-cover rounded-lg" src="https://lh3.googleusercontent.com/aida/ADBb0uh0jt0kq9dWiyeD_V0mU_ZzsNo1uB4TCRnvo9OCq9xZBzSz04kzju3zxR97BragRocVI5apSSd9r9914HmTa5sHZrFrRXCTz6G-ZeVAO2_q3sfpxq7162MQ3atNwFoT83K3l7vnW5xAB2aco7mETiBrFmI1cZ-BKiNoPR29l1s3PV924bZBvKNIMt2rZb6-9WOfFQ3eMOA-uoqOIXFyVBbEgFfK4rNnZhuWzyvO5vd1U8FBk4D3IZHyg5KBj0csmSBZfQ59jjtzIw" style="">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent pointer-events-none"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Summary Section (Asymmetric) -->
+<section class="bg-surface-container-low py-32 mb-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+<div class="md:col-span-4">
+<span class="text-tertiary-fixed-dim font-bold tracking-[0.2em] uppercase text-sm block mb-4" style="">The Atelier</span>
+<h2 class="text-4xl font-bold text-primary italic" style="">Our Philosophy</h2>
+</div>
+<div class="md:col-span-8">
+<p class="text-2xl md:text-3xl font-body leading-relaxed text-secondary-fixed-variant" style="">
+                            Boundless Tallawah Software is a software company focused on app websites, offline-capable progressive web apps, and local AI, meaning <span class="text-primary font-semibold" style="">Artificial Intelligence</span>, processing backends for business workflows. We build local, targeted applications tailored to the needs of each business.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Highlights (Bento Grid Style) -->
+<section class="max-w-7xl mx-auto px-8 mb-48">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-12 rounded-xl flex flex-col justify-between min-h-[400px] transition-all hover:bg-white editorial-shadow group">
+<div>
+<span class="material-symbols-outlined text-4xl text-tertiary-fixed-dim mb-8" data-icon="web" style="">web</span>
+<h3 class="text-3xl font-bold text-primary mb-4" style="">App Websites</h3>
+<p class="text-secondary leading-relaxed" style="">High-performance digital presence designed with editorial precision to showcase your unique business identity.</p>
+</div>
+<div class="mt-8">
+<hr class="border-outline-variant/20 mb-6">
+<a class="text-primary font-semibold flex items-center gap-2 group-hover:gap-4 transition-all" href="#" style="">
+                            View Capability
+                            <span class="material-symbols-outlined" style="">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-primary text-white p-12 rounded-xl flex flex-col justify-between min-h-[400px] editorial-shadow relative overflow-hidden">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-4xl text-tertiary-fixed-dim mb-8" data-icon="signal_wifi_off" style="">signal_wifi_off</span>
+<h3 class="text-3xl font-bold mb-4 italic" style="">Offline PWAs</h3>
+<p class="text-on-primary-container leading-relaxed" style="">Robust Progressive Web Apps that work seamlessly without an internet connection, optimized for regional infrastructure.</p>
+</div>
+<div class="relative z-10 mt-8">
+<hr class="border-white/10 mb-6">
+<a class="text-tertiary-fixed-dim font-semibold flex items-center gap-2" href="#" style="">
+                            Explore Connectivity
+                            <span class="material-symbols-outlined" style="">chevron_right</span>
+</a>
+</div>
+<div class="absolute bottom-0 right-0 w-32 h-32 bg-tertiary-fixed-dim/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-low p-12 rounded-xl flex flex-col justify-between min-h-[400px] transition-all hover:bg-surface-container-lowest editorial-shadow group">
+<div>
+<span class="material-symbols-outlined text-4xl text-tertiary-fixed-dim mb-8" data-icon="psychology" style="">psychology</span>
+<h3 class="text-3xl font-bold text-primary mb-4" style="">Local AI Backends</h3>
+<p class="text-secondary leading-relaxed" style="">Secure, on-premise AI intelligence tailored for your specific business workflows and data privacy needs.</p>
+</div>
+<div class="mt-8">
+<hr class="border-outline-variant/20 mb-6">
+<a class="text-primary font-semibold flex items-center gap-2 group-hover:gap-4 transition-all" href="#" style="">
+                            AI Integration
+                            <span class="material-symbols-outlined" style="">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Horizon -->
+<section class="relative h-[600px] mb-24 flex items-center overflow-hidden">
+<div class="absolute inset-0 bg-primary-container">
+<img alt="Global Reach" class="w-full h-full object-cover opacity-30 grayscale" data-alt="Dark, moody overhead shot of a clean workspace with architectural drawings and a high-end laptop, dramatic shadows and focused lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8YwL6xbii4AKhKTVEGmkmGYCogBeYhm9OKn5GcAU3oQH1blyY9XU6wG6mtYLi7pzCSk3Bow0iepUwNPN9LkjEtop4kIRECfDDEFFGfk2xkwzJ3zSCPNGV8ZXqQsXOeu2UpT4NthI0BMpbi-UzmvNdoWzTN0sHOMvSqRsLXZkr-TG9VhoZHmpWuEQxCbZRjxI9aLORqJY1SS8WTl6ftaSrWrK4_emymNe1yqqFhsO90GuthBjZ9E_23QTULX-mmDZg8aKkWff_Tmk" style="">
+</div>
+<div class="max-w-7xl mx-auto px-8 relative z-10 text-center md:text-left">
+<h2 class="text-white text-5xl md:text-7xl font-bold mb-12 max-w-3xl leading-tight" style="">Build for&nbsp;<span class="italic text-tertiary-fixed-dim" style="">boundless</span> <span style="color: rgb(255, 140, 0);" class="">success</span> today</h2>
+<button class="bg-tertiary-fixed-dim text-tertiary px-12 py-5 rounded-md font-bold text-xl hover:scale-105 transition-transform editorial-shadow" style="">
+                    Start Your Project
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-900 w-full border-t-0">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
+<div class="space-y-6">
+<div class="text-xl font-bold font-headline text-slate-900 dark:text-white flex flex-col leading-tight" style="">
+                    Boundless Tallawah 
+                    <span class="block text-[10px] uppercase tracking-[0.2em] text-slate-500 mt-1 font-label font-medium" style="">Software Solutions</span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 font-sans text-sm tracking-wide leading-relaxed" style="">
+                    Engineering digital resilience with Caribbean soul. Empowering businesses through local-first technology.
+                </p>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-slate-900 dark:text-white uppercase tracking-widest text-xs" style="">Resources</h4>
+<nav class="flex flex-col space-y-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white underline font-sans text-sm transition-opacity" href="#" style="">Technical Docs</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white underline font-sans text-sm transition-opacity" href="#" style="">Our Methodology</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white underline font-sans text-sm transition-opacity" href="#" style="">Global Offices</a>
+</nav>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-slate-900 dark:text-white uppercase tracking-widest text-xs" style="">Legal</h4>
+<nav class="flex flex-col space-y-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white underline font-sans text-sm transition-opacity" href="#" style="">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white underline font-sans text-sm transition-opacity" href="#" style="">Terms of Service</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white underline font-sans text-sm transition-opacity" href="#" style="">Cookie Settings</a>
+</nav>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-slate-900 dark:text-white uppercase tracking-widest text-xs" style="">Stay Connected</h4>
+<div class="flex space-x-4">
+<span class="material-symbols-outlined text-slate-600 cursor-pointer hover:text-teal-600 transition-colors" style="">public</span>
+<span class="material-symbols-outlined text-slate-600 cursor-pointer hover:text-teal-600 transition-colors" style="">hub</span>
+<span class="material-symbols-outlined text-slate-600 cursor-pointer hover:text-teal-600 transition-colors" style="">terminal</span>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 pb-12">
+<div class="pt-8 border-t border-slate-200 dark:border-slate-800 text-slate-500 dark:text-slate-400 font-sans text-sm tracking-wide" style="">
+                © 2024 Boundless Tallawah. All rights reserved. Built with Editorial Precision.
+            </div>
+</div>
+</footer>
+<!-- FAB -->
+<div class="fixed bottom-8 right-8 z-50">
+<button class="w-16 h-16 bg-tertiary-fixed-dim text-tertiary rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-transform editorial-shadow" style="">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: &quot;FILL&quot; 1;">add</span>
+</button>
+</div>
+</body></html>
