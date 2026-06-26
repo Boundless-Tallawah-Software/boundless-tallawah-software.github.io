@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html class="light" lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{% include head.html %}
+<body class="bg-surface text-on-surface selection:bg-brand-gold selection:text-primary">
+  {% include navigation.html %}
+  
+  <main class="pt-40">
+    {{ content }}
+  </main>
+  
+  {% include footer.html %}
+  {% include fab.html %}
+</body>
+</html>
