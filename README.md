@@ -9,16 +9,19 @@ This site uses a custom **Digital Atelier** design system that combines corporat
 ### Key Design Elements
 
 **Color Palette:**
+
 - **Navy** (#00113a, #002366) - Primary brand color for authority and trust
 - **Gold** (#FFD100) - Secondary accent for CTAs and highlights
 - **Green** (#009639) - Tertiary accent for active states and emphasis
 - Warm neutral surfaces (#f8f9fa, #ffffff)
 
 **Typography:**
+
 - **Literata** (serif) - Headlines and display text for editorial authority
 - **Hanken Grotesk** (sans-serif) - Body text, labels, and UI elements
 
 **Technical Stack:**
+
 - Jekyll 4.3+ (static site generator)
 - Tailwind CSS via CDN (utility-first styling)
 - Custom layouts and includes (no theme dependency)

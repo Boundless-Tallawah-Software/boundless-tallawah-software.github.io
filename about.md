@@ -24,4 +24,5 @@ We specialize in three core areas:
 We believe in human-friendly interactions and resilient technology. Our applications are designed to work reliably even in offline scenarios, ensuring your business operations continue uninterrupted.
 
 Every solution we build is targeted and tailored to the specific needs of each business, reflecting our commitment to quality and regional understanding.
+
 - offline-friendly thinking where reliability matters most
