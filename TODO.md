@@ -2,7 +2,7 @@
 
 ## High Priority
 
-- [ ] Replace caribbean-map.png with a corrected map image
+- [x] Replace caribbean-map.png with a corrected map image
   - Current map location: `/assets/images/caribbean-map.png`
   - Used in: `_includes/hero.html`
   - Requirements: Professional vector-style map of Caribbean islands highlighting CARICOM member states
