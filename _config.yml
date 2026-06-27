@@ -1,11 +1,16 @@
 title: Boundless Tallawah Software
 email: contact@boundless-tallawah-software.com
 description: >-
-  Boundless Tallawah Software — building quality software solutions.
+  Engineering digital resilience with Caribbean soul. We build app websites,
+  offline-capable progressive web apps, and local AI processing backends
+  tailored to Caribbean businesses.
 baseurl: ""
 url: "https://boundless-tallawah-software.github.io"
 
-theme: minima
+# theme: minima # Removed - using custom Digital Atelier theme
 
 plugins:
   - jekyll-feed
+
+# Digital Atelier Design System
+show_excerpts: true
