@@ -13,7 +13,9 @@ permalink: /privacy-policy/
 ## Information We Collect
 
 ### Information You Provide
+
 When you contact us or fill out forms on our website, we may collect:
+
 - Name
 - Email address
 - Phone number
@@ -21,7 +23,9 @@ When you contact us or fill out forms on our website, we may collect:
 - Any other information you choose to provide
 
 ### Automatically Collected Information
+
 When you visit our website, we automatically collect certain information about your device, including:
+
 - IP address
 - Browser type
 - Operating system
@@ -32,6 +36,7 @@ When you visit our website, we automatically collect certain information about y
 ## Use of Your Information
 
 We use the information we collect to:
+
 - Respond to your inquiries and provide customer service
 - Send you marketing communications (with your consent)
 - Improve our website and services
@@ -41,13 +46,16 @@ We use the information we collect to:
 ## Meta (Facebook) Pixel and Advertising
 
 We use Meta (Facebook) Pixel and other tracking technologies on our website for advertising purposes. This allows us to:
+
 - Measure the effectiveness of our advertising campaigns
 - Show you relevant ads on Facebook and Instagram
 - Build custom audiences for advertising
 - Track conversions and user interactions
 
 ### Your Choices Regarding Meta Ads
+
 You can opt out of personalized ads from Meta by:
+
 - Adjusting your ad preferences in your Facebook account settings
 - Using the Digital Advertising Alliance's opt-out tool at [www.aboutads.info/choices](https://www.aboutads.info/choices)
 - Enabling "Limit Ad Tracking" on your mobile device
@@ -59,6 +67,7 @@ We use cookies and similar tracking technologies to collect information about yo
 ## Sharing of Your Information
 
 We may share your information with:
+
 - Service providers who assist us in operating our website and conducting our business
 - Advertising partners (including Meta) to deliver targeted advertisements
 - Law enforcement or regulatory authorities when required by law
@@ -73,6 +82,7 @@ We implement reasonable security measures to protect your information from unaut
 ## Your Rights
 
 Depending on your location, you may have certain rights regarding your personal information, including:
+
 - Access to your personal information
 - Correction of inaccurate information
 - Deletion of your information
@@ -97,4 +107,4 @@ Website: [{{ site.url }}]({{ site.url }})
 
 ---
 
-*Last Updated: June 29, 2026*
+_Last Updated: June 29, 2026_
