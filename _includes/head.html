@@ -1,0 +1,101 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/boundless-tallawah-logo.png' | relative_url }}">
+  
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Literata:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-surface-variant": "#444650",
+            "error-container": "#ffdad6",
+            "on-secondary-fixed-variant": "#564500",
+            "on-error-container": "#93000a",
+            "on-error": "#ffffff",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-fixed-variant": "#00531c",
+            "inverse-primary": "#b3c5ff",
+            "primary-fixed": "#dbe1ff",
+            primary: "#00113a",
+            "surface-container-highest": "#e1e3e4",
+            "on-primary-fixed": "#00174a",
+            "secondary-fixed": "#ffe07f",
+            "tertiary-fixed-dim": "#65df77",
+            "secondary-container": "#fed000",
+            "on-primary-container": "#758dd5",
+            "primary-fixed-dim": "#b3c5ff",
+            "on-primary": "#ffffff",
+            "on-secondary-container": "#6f5900",
+            "on-primary-fixed-variant": "#2a4386",
+            "surface-container": "#edeeef",
+            "inverse-on-surface": "#f0f1f2",
+            "tertiary-container": "#00300d",
+            "surface-container-lowest": "#ffffff",
+            "on-background": "#191c1d",
+            "inverse-surface": "#2e3132",
+            "primary-container": "#002366",
+            "on-tertiary-fixed": "#002107",
+            "surface-tint": "#435b9f",
+            surface: "#f8f9fa",
+            "secondary-fixed-dim": "#edc200",
+            "outline-variant": "#c5c6d2",
+            "tertiary-fixed": "#82fc90",
+            background: "#f8f9fa",
+            "on-secondary": "#ffffff",
+            "on-surface": "#191c1d",
+            "surface-bright": "#f8f9fa",
+            outline: "#757682",
+            secondary: "#725c00",
+            "surface-dim": "#d9dadb",
+            error: "#ba1a1a",
+            tertiary: "#001904",
+            "on-tertiary-container": "#22a546",
+            "surface-container-high": "#e7e8e9",
+            "surface-container-low": "#f3f4f5",
+            "on-secondary-fixed": "#231b00",
+            "surface-variant": "#e1e3e4",
+            "brand-gold": "#FFD100",
+            "brand-green": "#009639"
+          },
+          borderRadius: {
+            DEFAULT: "0.25rem",
+            lg: "0.5rem",
+            xl: "0.75rem",
+            full: "9999px"
+          },
+          fontFamily: {
+            body: ["Hanken Grotesk", "sans-serif"],
+            headline: ["Literata", "serif"],
+            label: ["Hanken Grotesk", "sans-serif"],
+            display: ["Literata", "serif"]
+          }
+        }
+      }
+    };
+  </script>
+  
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .editorial-shadow {
+      box-shadow: 0 20px 40px rgba(0, 35, 102, 0.08);
+    }
+    body {
+      font-family: 'Hanken Grotesk', sans-serif;
+      background-color: #f8f9fa;
+      color: #191c1d;
+    }
+    h1, h2, h3 {
+      font-family: 'Literata', serif;
+    }
+  </style>
+</head>
