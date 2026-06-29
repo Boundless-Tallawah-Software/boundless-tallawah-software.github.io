@@ -13,7 +13,7 @@
       </p>
     </div>
     
-    <div class="space-y-4">
+    <div class="space-y-4 hidden">
       <h4 class="font-bold text-primary uppercase tracking-widest text-xs">Resources</h4>
       <nav class="flex flex-col space-y-3">
         <a class="text-on-surface-variant hover:text-brand-green font-body text-sm transition-colors" href="#">Technical Docs</a>
@@ -25,13 +25,13 @@
     <div class="space-y-4">
       <h4 class="font-bold text-primary uppercase tracking-widest text-xs">Legal</h4>
       <nav class="flex flex-col space-y-3">
-        <a class="text-on-surface-variant hover:text-brand-green font-body text-sm transition-colors" href="#">Privacy Policy</a>
-        <a class="text-on-surface-variant hover:text-brand-green font-body text-sm transition-colors" href="#">Terms of Service</a>
-        <a class="text-on-surface-variant hover:text-brand-green font-body text-sm transition-colors" href="#">Cookie Settings</a>
+        <a class="text-on-surface-variant hover:text-brand-green font-body text-sm transition-colors" href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
+        <a class="text-on-surface-variant hover:text-brand-green font-body text-sm transition-colors hidden" href="#">Terms of Service</a>
+        <a class="text-on-surface-variant hover:text-brand-green font-body text-sm transition-colors hidden" href="#">Cookie Settings</a>
       </nav>
     </div>
     
-    <div class="space-y-4">
+    <div class="space-y-4 hidden">
       <h4 class="font-bold text-primary uppercase tracking-widest text-xs">Stay Connected</h4>
       <div class="flex space-x-4">
         <span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-brand-green transition-colors">public</span>
