@@ -9,10 +9,10 @@
 
 ## Medium Priority
 
-- [ ] Add actual logo to replace placeholder if needed
+- [x] Add actual logo to replace placeholder if needed
 - [ ] Create individual service detail pages (App Websites, Offline PWAs, Local AI Backends)
-- [ ] Implement contact form functionality
-- [ ] Add Privacy Policy page
+- [x] Implement contact form functionality
+- [x] Add Privacy Policy page
 - [ ] Add Terms of Service page
 - [ ] Add Cookie Settings page
 
