@@ -10,7 +10,7 @@
 ## Medium Priority
 
 - [x] Add actual logo to replace placeholder if needed
-- [ ] Create individual service detail pages (App Websites, Offline PWAs, Local AI Backends)
+- [ ] Create individual service detail pages (App Websites, PWAs, Local AI Backends)
 - [x] Implement contact form functionality
 - [x] Add Privacy Policy page
 - [ ] Add Terms of Service page

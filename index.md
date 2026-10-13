@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Boundless Tallawah Software | Offline-Capable Apps & Local AI
+title: Boundless Tallawah Software | Capable Web Apps & Local AI
 ---

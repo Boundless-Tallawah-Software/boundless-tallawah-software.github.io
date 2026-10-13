@@ -16,7 +16,7 @@ We serve the Caribbean with a deep understanding of the unique challenges and op
 We specialize in three core areas:
 
 - **App Websites**: High-performance digital presence with editorial precision
-- **Offline-Capable Progressive Web Apps**: Robust applications optimized for regional connectivity
+- **Progressive Web Apps**: Robust applications optimized for regional connectivity with robust offline capabilities.
 - **Local AI Backends**: Secure, on-premise artificial intelligence for business workflows
 
 ## Our Philosophy
