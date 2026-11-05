@@ -2,14 +2,18 @@
 layout: default
 title: Profile
 permalink: /profile/
-subtitle: Nkosi Dilworth – Partner at Blue Horizons Partners & Owner & Principal at Boundless Tallawah Software
+subtitle: Nkosi Dilworth – Owner & Principal at Boundless Tallawah Software & Partner at Blue Horizons Partners
 description: A profile page showcasing Nkosi Dilworth’s 22+ years of software engineering, architecture, and leadership across the Caribbean, Africa, and international markets.
 ---
+
 <style>
   @media (min-width: 768px) {
     .profile-timeline article:nth-child(odd) > div { grid-column: 1; }
     .profile-timeline article:nth-child(even) > div { grid-column: 2; }
   }
+  .profile-accordion summary::-webkit-details-marker { display: none; }
+  .profile-accordion summary { list-style: none; }
+  .profile-accordion summary::marker { content: ''; }
 </style>
 <div class="-mt-40 pt-40 max-w-7xl mx-auto">
 
@@ -19,17 +23,12 @@ description: A profile page showcasing Nkosi Dilworth’s 22+ years of software 
       <div class="lg:col-span-7 lg:pr-12">
         <span class="inline-block text-brand-green font-bold tracking-[0.2em] uppercase text-xs mb-6">The Architect</span>
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6">Nkosi Dilworth</h1>
-        <p class="text-xl md:text-2xl text-white mb-4">Partner at Blue Horizons Partners</p>
-        <p class="text-xl md:text-2xl text-brand-gold mb-8">Owner & Principal at Boundless Tallawah Software</p>
-        <p class="text-base md:text-lg text-white/75 mb-10">Greater Tampa Bay Area • 22+ years • English (native)</p>
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="{{ site.data.profile.linkedin_url }}" class="bg-brand-gold text-primary px-6 py-3 rounded-xl font-semibold hover:bg-secondary-fixed transition-colors" target="_blank" rel="noopener noreferrer">
-            View on LinkedIn
-          </a>
-          <a href="mailto:{{ site.email }}" class="border border-white/30 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/10 transition-colors">
-            Start a conversation
-          </a>
-        </div>
+        <p class="text-xs font-bold tracking-[0.2em] uppercase text-brand-green mb-3">Owner & Principal</p>
+        <p class="text-3xl md:text-4xl font-bold text-brand-gold mb-8">Boundless Tallawah Software</p>
+        <p class="text-base md:text-lg text-white/70 mb-10">Also Partner at Blue Horizons Partners</p>
+        <a href="{{ site.data.profile.linkedin_url }}" class="inline-flex items-center gap-2 text-sm text-white/60 hover:text-brand-gold transition-colors" target="_blank" rel="noopener noreferrer">
+          View on LinkedIn <span class="material-symbols-outlined text-base">arrow_outward</span>
+        </a>
       </div>
       <div class="lg:col-span-5 relative">
         <div class="absolute -inset-3 bg-brand-gold/15 rounded-3xl blur-2xl"></div>
@@ -126,37 +125,34 @@ description: A profile page showcasing Nkosi Dilworth’s 22+ years of software 
     </div>
   </section>
 
-  <!-- Education & Skills -->
+  <!-- Foundation & Contact -->
   <section class="bg-primary text-white py-20">
     <div class="max-w-7xl mx-auto px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-14">
         <div>
           <span class="text-brand-green font-bold tracking-[0.2em] uppercase text-xs block mb-4">Foundation</span>
-          <h2 class="text-4xl font-bold italic mb-8">Education</h2>
-          <div class="space-y-4">
-            {% for edu in site.data.profile.education %}
-              <article class="p-6 rounded-xl border border-white/15 bg-white/5">
-                <p class="text-brand-gold font-semibold mb-1">{{ edu.degree }}</p>
-                <h3 class="text-xl font-bold mb-2">{{ edu.institution }}</h3>
-                <p class="text-white/70 text-sm">{{ edu.period }}{% if edu.detail %} · {{ edu.detail }}{% endif %}</p>
-              </article>
-            {% endfor %}
-          </div>
+          <details class="group profile-accordion rounded-xl border border-white/15 bg-white/5 overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+              <span class="text-3xl md:text-4xl font-bold italic">Education</span>
+              <span class="material-symbols-outlined text-brand-gold transition-transform duration-300 group-open:rotate-180" aria-hidden="true">expand_more</span>
+            </summary>
+            <div class="px-6 pb-6 space-y-4">
+              {% for edu in site.data.profile.education %}
+                <article class="p-5 rounded-xl border border-white/15 bg-white/5">
+                  <p class="text-brand-gold font-semibold mb-1">{{ edu.degree }}</p>
+                  <h3 class="text-xl font-bold mb-2">{{ edu.institution }}</h3>
+                  <p class="text-white/70 text-sm">{{ edu.period }}{% if edu.detail %} · {{ edu.detail }}{% endif %}</p>
+                </article>
+              {% endfor %}
+            </div>
+          </details>
         </div>
         <div>
-          <span class="text-brand-green font-bold tracking-[0.2em] uppercase text-xs block mb-4">Toolkit</span>
-          <h2 class="text-4xl font-bold italic mb-8">Selected skills</h2>
-          <div class="flex flex-wrap gap-3">
-            {% for skill in site.data.profile.skills %}
-              <span class="px-4 py-2 rounded-full border border-white/20 bg-white/5 text-white/85">{{ skill }}</span>
-            {% endfor %}
-          </div>
-          <div class="mt-12 p-6 rounded-xl bg-brand-gold text-primary">
+          <span class="text-brand-green font-bold tracking-[0.2em] uppercase text-xs block mb-4">Contact</span>
+          <h2 class="text-4xl font-bold italic mb-8">Let’s build something enduring.</h2>
+          <div class="p-6 rounded-xl bg-brand-gold text-primary">
             <p class="font-headline text-2xl italic mb-2">Open to meaningful work.</p>
-            <p class="mb-5">Have a bold idea that needs resilient, beautifully engineered technology?</p>
-            <a href="mailto:{{ site.email }}" class="inline-flex items-center gap-2 font-semibold">
-              Start a conversation <span class="material-symbols-outlined">arrow_forward</span>
-            </a>
+            <p>Have a bold idea that needs resilient, beautifully engineered technology?</p>
           </div>
         </div>
       </div>
