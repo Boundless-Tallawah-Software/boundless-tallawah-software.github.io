@@ -1,0 +1,130 @@
+name: Nkosi Dilworth
+headline: Unlocking new horizons through software engineering and systems architecture.
+location: Greater Tampa Bay Area
+email: contact@boundless-tallawah.com
+linkedin_url: https://www.linkedin.com/in/nkosidilworth/
+headshot: /assets/images/nkosi-dilworth-headshot.jpg
+
+intro:
+  - Blue Ocean Strategy-driven technology leader with 22+ years of experience designing and deploying enterprise-grade software solutions. Now making my skills available for Caribbean, African, and international markets.
+  - I specialize in solution architecture, full-stack engineering, and focused local AI systems—guiding teams from bold idea through concept, delivery, and meaningful impact.
+
+expertise:
+  - label: Solution Architecture
+    detail: Scalable systems from concept to deployment, including modernization of existing infrastructure.
+  - label: Full-Stack Engineering
+    detail: End-to-end delivery across web, mobile, databases, and enterprise applications.
+  - label: Applied AI
+    detail: Focused, local AI systems designed around specific organizational and community needs.
+  - label: Cloud & DevOps
+    detail: Cloud architecture, automation, systems administration, and reliable delivery practices.
+
+experience:
+  - role: Owner & Principal
+    company: Boundless Tallawah Software
+    period: Jan 2026 – Present
+    location: Remote
+    summary: Building software for the Caribbean and African Diaspora—high-quality, locally-tailored solutions designed around the realities of regional infrastructure and business.
+    highlights:
+      - Software architecture
+      - Enterprise systems
+      - Local AI
+  - role: Partner
+    company: Blue Horizons Partners
+    period: Nov 2025 – Present
+    location: Hybrid
+    summary: A Blue Ocean Strategy-driven consultancy delivering transformative marketing, public relations, software engineering, and systems architecture for visionary leaders and emerging markets.
+    highlights:
+      - Blue Ocean strategy
+      - Business ownership
+      - Systems architecture
+  - role: Lead Software Architect
+    company: defi SOLUTIONS
+    period: Aug 2022 – Nov 2025
+    location: Tampa, Florida
+    summary: Led architecture and full-stack engineering for national and international organizations, guiding delivery across the complete software development lifecycle.
+    highlights:
+      - Lead architecture
+      - Full-stack development
+      - Technical leadership
+  - role: Senior Software Engineer
+    company: Affordit®
+    period: Aug 2020 – Sep 2022
+    location: Tampa, Florida
+    summary: Developed innovative lending solutions that use AI to model applicant financial profiles and deliver product-specific recommendations to financial institutions.
+    highlights:
+      - C#
+      - AI-powered lending
+      - Financial technology
+  - role: Senior Software Engineer
+    company: ConnectWise
+    period: Oct 2019 – Jul 2020
+    location: Tampa, Florida
+    summary: Delivered enterprise software enhancements as part of a senior engineering team focused on reliable, scalable technology.
+    highlights:
+      - Software engineering
+      - Enterprise platforms
+      - Team delivery
+  - role: Senior Software Engineer & Architect
+    company: Realogic Works
+    period: Nov 2016 – Oct 2019
+    location: Greater Tampa Bay Area
+    summary: Provided architecture oversight for a C# and .NET Core pricing platform built with microservices, AWS, Kubernetes, and Spinnaker, while working with DevOps on runbooks and QA automation.
+    highlights:
+      - Microservices
+      - AWS & Kubernetes
+      - DevOps & QA
+  - role: Founder
+    company: Red Ackee Software
+    period: Jan 2014 – Oct 2019
+    location: Greater Tampa Bay Area
+    summary: Founded a software studio focused on bespoke mobile software and client-specific product engineering.
+    highlights:
+      - Entrepreneurship
+      - Bespoke mobile
+      - Product engineering
+  - role: Senior Software Engineer
+    company: Star2Star Communications
+    period: May 2014 – Jun 2016
+    location: Sarasota, Florida
+    summary: Streamlined critical business workflows with integrated MySQL, Java APIs, SugarCRM, ETL, Redis queues, and REST, SOAP, XML, and JSON services.
+    highlights:
+      - Java
+      - MySQL & Redis
+      - Integration architecture
+  - role: Senior Software Developer
+    company: NextSphere Technologies | A Grid Dynamics Company
+    period: Oct 2006 – May 2014
+    location: Clearwater, Florida
+    summary: Delivered enterprise and mobile software across healthcare, insurance, learning, and media—including HealthAxis, CAE Healthcare, Miles Media, Medical Education Technologies, IBHS, and Borschow Healthcare.
+    highlights:
+      - Enterprise software
+      - Mobile apps
+      - Healthcare systems
+  - role: Senior Software Developer
+    company: Internext Corporation
+    period: May 2005 – Oct 2006
+    location: Little Rock, Arkansas
+    summary: Documented mission-critical inventory, distribution, and logistics systems and contributed to an end-to-end training platform for medical education.
+    highlights:
+      - Business systems
+      - Logistics software
+      - E-learning
+  - role: Software Developer
+    company: InterTech Media
+    period: Jun 2001 – Apr 2005
+    location: Old Greenwich, Connecticut
+    summary: Built an in-house content management system for radio stations across requirements, architecture, design, documentation, and implementation.
+    highlights:
+      - Content management
+      - Requirements & architecture
+      - Full lifecycle delivery
+
+education:
+  - degree: B.S., Computer Science
+    institution: Ohio Wesleyan University
+    period: 1997 – 2001
+    detail: Rotary Club · Computer Gaming Club
+  - degree: Secondary Education
+    institution: Manchester High School
+    period: 1990 – 1997
