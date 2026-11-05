@@ -150,10 +150,14 @@ description: A profile page showcasing Nkosi Dilworth’s 22+ years of software 
         <div>
           <span class="text-brand-green font-bold tracking-[0.2em] uppercase text-xs block mb-4">Contact</span>
           <h2 class="text-4xl font-bold italic mb-8">Let’s build something enduring.</h2>
-          <div class="p-6 rounded-xl bg-brand-gold text-primary">
-            <p class="font-headline text-2xl italic mb-2">Open to meaningful work.</p>
-            <p>Have a bold idea that needs resilient, beautifully engineered technology?</p>
-          </div>
+          <a href="https://ask.boundless-tallawah.com/prospect" target="_blank" rel="noopener noreferrer" class="group block p-6 rounded-xl bg-brand-gold text-primary hover:bg-secondary-fixed transition-colors">
+            <p class="text-xs font-bold tracking-[0.2em] uppercase mb-3">Tell us what you need</p>
+            <p class="font-headline text-2xl md:text-3xl font-bold italic leading-snug mb-4">Have a bold idea that needs resilient, beautifully engineered technology?</p>
+            <span class="inline-flex items-center gap-2 font-semibold">
+              Get in touch
+              <span class="material-symbols-outlined transition-transform duration-300 group-hover:translate-x-1">arrow_forward</span>
+            </span>
+          </a>
         </div>
       </div>
     </div>
