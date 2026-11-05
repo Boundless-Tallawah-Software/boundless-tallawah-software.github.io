@@ -9,9 +9,10 @@
     </a>
     
     <div class="hidden md:flex items-center space-x-8">
-      <a class="text-brand-green font-semibold border-b-2 border-brand-green font-headline italic text-lg transition-all duration-300" href="#solutions">Solutions</a>
-      <a class="text-on-surface-variant hover:text-brand-green font-headline italic text-lg transition-colors hidden" href="#services">Services</a>
-      <a class="text-on-surface-variant hover:text-brand-green font-headline italic text-lg transition-colors" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="{% if page.url == '/' %}text-brand-green font-semibold border-b-2 border-brand-green{% else %}text-on-surface-variant hover:text-brand-green{% endif %} font-headline italic text-lg transition-all duration-300" href="{{ '/' | relative_url }}#solutions">Solutions</a>
+      <a class="text-on-surface-variant hover:text-brand-green font-headline italic text-lg transition-colors hidden" href="{{ '/' | relative_url }}#services">Services</a>
+      <a class="{% if page.url == '/about/' %}text-brand-green font-semibold border-b-2 border-brand-green{% else %}text-on-surface-variant hover:text-brand-green{% endif %} font-headline italic text-lg transition-all duration-300" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="{% if page.url == '/profile/' %}text-brand-green font-semibold border-b-2 border-brand-green{% else %}text-on-surface-variant hover:text-brand-green{% endif %} font-headline italic text-lg transition-all duration-300" href="{{ '/profile/' | relative_url }}">Profile</a>
       <a class="text-on-surface-variant hover:text-brand-green font-headline italic text-lg transition-colors" href="https://ask.boundless-tallawah.com/prospect" target="_blank" rel="noopener noreferrer">Contact</a>
     </div>
     
