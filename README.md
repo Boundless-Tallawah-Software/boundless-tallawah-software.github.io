@@ -61,8 +61,11 @@ The site will be available at `http://localhost:4000`
 ├── assets/
 │   ├── css/
 │   │   └── style.scss # Additional custom styles
+│   ├── documents/     # Publicly hosted brochures and documents
 │   ├── images/        # Site images and logo
 │   └── js/            # Custom JavaScript
+├── _data/
+│   └── documents.yml  # Titles, descriptions, and paths for the Documents page
 ├── _config.yml        # Jekyll configuration
 ├── index.md           # Homepage (uses home layout)
 └── about.md           # About page
@@ -79,6 +82,10 @@ The site will be available at `http://localhost:4000`
 ---
 
 We serve the Caribbean. We build web applications, usable in office or when mobile, to custom fit business needs and the local environment. Human friendly interactions that allow for offline use cases.
+
+## Publishing documents
+
+Place each public PDF in `assets/documents/`, then add its title, description, and site-relative file path to `_data/documents.yml`. The Documents page and navigation link update automatically when the site is built.
 
 ## Local development
 
