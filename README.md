@@ -68,7 +68,10 @@ The site will be available at `http://localhost:4000`
 │   └── documents.yml  # Titles, descriptions, and paths for the Documents page
 ├── _config.yml        # Jekyll configuration
 ├── index.md           # Homepage (uses home layout)
-└── about.md           # About page
+├── about.md           # About page
+├── app-websites.md    # App websites and web apps service
+├── offline-web-apps.md # Offline-capable web apps service
+└── ai-integration.md  # AI integration service
 
 ```
 
