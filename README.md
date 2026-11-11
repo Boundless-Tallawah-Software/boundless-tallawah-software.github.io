@@ -52,6 +52,8 @@ The site will be available at `http://localhost:4000`
 │   ├── hero.html      # Homepage hero section
 │   ├── about-section.html
 │   ├── services-grid.html
+│   ├── services/      # Shared content for service pages and the homepage panel
+│   ├── service-consultation.html
 │   ├── cta-horizon.html
 │   └── fab.html       # Floating action button
 ├── _layouts/          # Page templates
@@ -89,6 +91,8 @@ We serve the Caribbean. We build web applications, usable in office or when mobi
 ## Publishing documents
 
 Place each public PDF in `assets/documents/`, then add its title, description, and site-relative file path to `_data/documents.yml`. The Documents page and navigation link update automatically when the site is built.
+
+The homepage service cards display their shared content in one expandable panel. Without JavaScript, the cards link directly to the individual service pages.
 
 ## Local development
 
