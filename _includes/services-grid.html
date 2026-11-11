@@ -1,4 +1,4 @@
-<section class="max-w-7xl mx-auto px-8 mb-48">
+<section class="max-w-7xl mx-auto px-8 mb-48" data-service-grid>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
     <!-- Card 1: App Websites -->
     <div class="bg-surface-container-lowest p-12 rounded-xl flex flex-col justify-between min-h-[420px] transition-all hover:bg-white editorial-shadow group border border-surface-container">
@@ -7,14 +7,14 @@
           <span class="material-symbols-outlined text-3xl text-brand-green">web</span>
         </div>
         <h3 class="text-3xl font-bold text-primary mb-4">App Websites</h3>
-        <p class="text-on-surface-variant leading-relaxed">High-performance digital presence designed with editorial precision to showcase your unique business identity.</p>
+        <p class="text-on-surface-variant leading-relaxed">Interactive web apps that help customers make requests and businesses manage everyday work.</p>
       </div>
       <div class="mt-8">
         <hr class="border-outline-variant/30 mb-6">
-        <a class="text-primary font-semibold flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
-          View Capability
-          <span class="material-symbols-outlined text-brand-green">chevron_right</span>
-        </a>
+        <a class="text-primary font-semibold" href="{{ '/app-websites/' | relative_url }}" data-service-fallback>View Capability</a>
+        <button type="button" class="text-primary font-semibold" data-service-button="app-websites" aria-controls="service-panel" aria-expanded="false" hidden>
+          <span class="inline-flex items-center gap-2">View Capability <span class="material-symbols-outlined text-brand-green" aria-hidden="true">expand_more</span></span>
+        </button>
       </div>
     </div>
     
@@ -25,14 +25,14 @@
           <span class="material-symbols-outlined text-3xl text-brand-gold">signal_wifi_off</span>
         </div>
         <h3 class="text-3xl font-bold mb-4 italic">PWAs</h3>
-        <p class="text-primary-fixed/80 leading-relaxed">Robust Progressive Web Apps optimized for regional infrastructure that remain capable without an internet connection..</p>
+        <p class="text-primary-fixed/80 leading-relaxed">Web apps designed to keep essential tasks moving when the internet is weak or unavailable.</p>
       </div>
       <div class="relative z-10 mt-8">
         <hr class="border-white/10 mb-6">
-        <a class="text-brand-gold font-semibold flex items-center gap-2 hover:gap-4 transition-all" href="#">
-          Explore Connectivity
-          <span class="material-symbols-outlined">chevron_right</span>
-        </a>
+        <a class="text-brand-gold font-semibold" href="{{ '/offline-web-apps/' | relative_url }}" data-service-fallback>Explore Connectivity</a>
+        <button type="button" class="text-brand-gold font-semibold" data-service-button="offline-web-apps" aria-controls="service-panel" aria-expanded="false" hidden>
+          <span class="inline-flex items-center gap-2">Explore Connectivity <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></span>
+        </button>
       </div>
       <div class="absolute bottom-0 right-0 w-48 h-48 bg-brand-green/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
     </div>
@@ -44,15 +44,37 @@
           <span class="material-symbols-outlined text-3xl text-brand-green">psychology</span>
         </div>
         <h3 class="text-3xl font-bold text-primary mb-4">Local AI Backends</h3>
-        <p class="text-on-surface-variant leading-relaxed">Secure, on-premise AI intelligence tailored for your specific business workflows and data privacy needs.</p>
+        <p class="text-on-surface-variant leading-relaxed">Explore practical AI tools for repeatable business tasks, online or on your own premises.</p>
       </div>
       <div class="mt-8">
         <hr class="border-outline-variant/30 mb-6">
-        <a class="text-primary font-semibold flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
-          AI Integration
-          <span class="material-symbols-outlined text-brand-green">chevron_right</span>
-        </a>
+        <a class="text-primary font-semibold" href="{{ '/ai-integration/' | relative_url }}" data-service-fallback>AI Integration</a>
+        <button type="button" class="text-primary font-semibold" data-service-button="ai-integration" aria-controls="service-panel" aria-expanded="false" hidden>
+          <span class="inline-flex items-center gap-2">AI Integration <span class="material-symbols-outlined text-brand-green" aria-hidden="true">expand_more</span></span>
+        </button>
       </div>
     </div>
   </div>
+
+  <div id="service-panel" class="mt-8 scroll-mt-40 rounded-xl border border-surface-container bg-white p-8 md:p-12 text-on-surface editorial-shadow" aria-live="polite" hidden>
+    <div data-service-content="app-websites" hidden>
+      <h3 class="text-3xl font-bold text-primary mb-2">App Websites and Web Apps</h3>
+      <p class="mb-6 text-on-surface-variant">Make everyday work easier to manage.</p>
+      {% include services/app-websites.html heading="h4" %}
+      <a class="inline-block mt-6 text-primary underline hover:text-brand-green" href="{{ '/app-websites/' | relative_url }}">Open full page</a>
+    </div>
+    <div data-service-content="offline-web-apps" hidden>
+      <h3 class="text-3xl font-bold text-primary mb-2">Keep Working When the Internet Drops</h3>
+      <p class="mb-6 text-on-surface-variant">Some web apps can keep working offline.</p>
+      {% include services/offline-web-apps.html heading="h4" %}
+      <a class="inline-block mt-6 text-primary underline hover:text-brand-green" href="{{ '/offline-web-apps/' | relative_url }}">Open full page</a>
+    </div>
+    <div data-service-content="ai-integration" hidden>
+      <h3 class="text-3xl font-bold text-primary mb-2">Practical AI for Repeatable Tasks</h3>
+      <p class="mb-6 text-on-surface-variant">Explore AI for routine business tasks.</p>
+      {% include services/ai-integration.html heading="h4" %}
+      <a class="inline-block mt-6 text-primary underline hover:text-brand-green" href="{{ '/ai-integration/' | relative_url }}">Open full page</a>
+    </div>
+  </div>
 </section>
+<script src="{{ '/assets/js/services.js' | relative_url }}" defer></script>

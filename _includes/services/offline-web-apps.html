@@ -1,0 +1,11 @@
+{% assign heading = include.heading | default: 'h2' %}
+<p class="mb-6 leading-relaxed">A Progressive Web App (PWA) is a kind of web app that can be designed to keep working when the internet is weak or unavailable. Information already loaded on a device can remain available, and staff can continue filling out forms and saving entries.</p>
+
+<p class="mb-6 leading-relaxed">When the connection returns, staff can review their saved entries before sending them to the business. The information is not sent until the device is back online.</p>
+
+<{{ heading }} class="mt-8 mb-4 text-xl font-bold text-primary">Where this can help</{{ heading }}>
+<p class="mb-6 leading-relaxed">This can be useful for workers who take orders or collect information away from the office. Text-based tasks work well offline, while tasks involving large images or file uploads work best with a reliable internet connection.</p>
+
+<{{ heading }} class="mt-8 mb-4 text-xl font-bold text-primary">Get started</{{ heading }}>
+<p class="leading-relaxed">Tell us where and how your team needs to work, and request a consultation.</p>
+{% include service-consultation.html %}
